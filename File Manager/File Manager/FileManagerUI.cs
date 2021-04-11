@@ -6,8 +6,13 @@ namespace ConsoleFileManager
 {
     public class FileManagerUI
     {
+        #region Пользовательский интерфейс приложения
         public void UI()
         {
+            /// <summary>
+            /// Метод UI устанавливает пользовательский интерфейс прилоения путём деления окна консоли на несколько блоков. 
+            /// </summary
+            Console.Title = "Nedjad File Manager";
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.CursorVisible = false;
 
@@ -217,5 +222,6 @@ namespace ConsoleFileManager
             Console.SetCursorPosition(Console.WindowWidth - Console.WindowWidth / 2 / 2 + 1 - 15, Console.WindowHeight);
             Console.Write("┴");
         }
+        #endregion
     }
 }
