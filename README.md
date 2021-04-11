@@ -2,7 +2,8 @@
 
 Консольный файл менеджер
 
-![image](https://user-images.githubusercontent.com/78599846/114285832-c22af600-9a62-11eb-88d6-2dae88057305.png)
+![image](https://user-images.githubusercontent.com/78599846/114304099-14f3c480-9ada-11eb-8ea6-aaef4028e1a4.png)
+
 
 Возможности:
 
