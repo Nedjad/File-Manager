@@ -398,7 +398,7 @@ namespace ConsoleFileManager
                                 }
                             }
                             break;
-                        case ConsoleKey.Add:
+                        case ConsoleKey.Insert:
                             if ((keyInfo.Modifiers & ConsoleModifiers.Control) != 0)
                             {
                                 if (elements.Length == 0 || elements[index].GetType() != typeof(DriveInfo))
